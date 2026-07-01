@@ -10,6 +10,9 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
+# Blacklist for the little red badge links we want to ignore
+BADGE_TEXTS = {"social", "class & social", "classes", "share event", "party"}
+
 def scrape_and_create_feed():
     print("Fetching page...")
     try:
@@ -21,7 +24,6 @@ def scrape_and_create_feed():
         
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # Initialize the RSS Feed
     fg = FeedGenerator()
     fg.id(URL)
     fg.title("NYC Salsa Socials - Salsa Vida")
@@ -30,20 +32,13 @@ def scrape_and_create_feed():
     fg.description("Automated RSS feed for upcoming Salsa Socials in New York City.")
     fg.language('en')
     
-    seen_html_blocks = set()
     seen_events = set()
     events_count = 0
     
-    # Grab all standard container boxes on the page
     containers = soup.find_all(['div', 'article', 'li'])
     
     for card in containers:
         try:
-            # 1. Prevent processing the exact same HTML box twice (solves nested tags)
-            card_id = id(card)
-            if card_id in seen_html_blocks:
-                continue
-                
             text = card.text.strip()
             
             # THE TITANIUM FILTER
@@ -53,45 +48,46 @@ def scrape_and_create_feed():
             
             if not (has_time and has_year and has_ny) or len(text) > 800:
                 continue
-                
-            # If it passes the filter, mark this HTML block as read
-            seen_html_blocks.add(card_id)
             
-            # Find the title
-            links = card.find_all('a')
-            event_link = None
-            title = None
+            # 1. Find the TRUE Title
+            # Prioritize heading tags to avoid grabbing the "Social" badge by mistake
+            heading = card.find(['h2', 'h3', 'h4', 'h5', 'strong'])
+            title = heading.text.strip() if heading else None
             
-            for l in links:
-                l_text = l.text.strip()
-                l_href = l.get('href', '')
-                if not l_text:
-                    continue
-                title = l_text
-                event_link = l_href
-                break
-                
+            # Fallback if no heading exists: grab the first link that ISN'T a badge
             if not title:
-                heading = card.find(['h2', 'h3', 'h4', 'strong'])
-                if heading:
-                    title = heading.text.strip()
+                for l in card.find_all('a'):
+                    l_text = l.text.strip()
+                    if l_text and l_text.lower() not in BADGE_TEXTS:
+                        title = l_text
+                        break
             
-            if not title or len(title) < 3:
+            # If the title is still just a badge or too short, skip it
+            if not title or len(title) < 3 or title.lower() in BADGE_TEXTS:
                 continue
                 
-            # 2. Extract the specific Date to handle recurring weekend events
+            # 2. Extract the specific Date
             date_match = re.search(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s[A-Z][a-z]{2}\s\d{1,2},\s202\d', text)
             event_date = date_match.group(0) if date_match else "UnknownDate"
             
-            # Create a unique key (e.g., "LVG Salsa Social-Sunday, Jun 28, 2026")
+            # 3. Deduplication Check
             unique_event_key = f"{title}-{event_date}"
-            
-            # 3. Final deduplication check using our new specific key
             if unique_event_key in seen_events:
                 continue
             seen_events.add(unique_event_key)
-                
-            # Clean up the link URL
+            
+            # 4. Find the TRUE Link
+            event_link = None
+            if heading and heading.find('a'):
+                event_link = heading.find('a').get('href', '')
+            else:
+                for l in card.find_all('a'):
+                    href = l.get('href', '')
+                    txt = l.text.strip().lower()
+                    if href and txt not in BADGE_TEXTS and "category" not in href:
+                        event_link = href
+                        break
+                        
             link = event_link if event_link else URL
             if link.startswith('/'):
                 link = "https://www.salsavida.com" + link
@@ -102,10 +98,10 @@ def scrape_and_create_feed():
             img_element = card.find('img')
             img_url = img_element['src'] if img_element and img_element.has_attr('src') else None
             
-            # Add to RSS feed using the unique key as the RSS ID
+            # Build the RSS Item
             fe = fg.add_entry()
             fe.id(link + "-" + unique_event_key.replace(" ", ""))
-            fe.title(f"{title} ({event_date})") # Added date to the title so it's clear in your reader!
+            fe.title(f"{title} ({event_date})")
             fe.link(href=link)
             fe.description(desc)
             
@@ -117,10 +113,9 @@ def scrape_and_create_feed():
         except Exception as e:
             continue
 
-    # Save the finished RSS feed
     if events_count > 0:
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {events_count} uniquely verified events!")
+        print(f"Successfully generated salsa_feed.xml with {events_count} unique events!")
     else:
         print("Warning: No events found matching the criteria.")
 
