@@ -9,6 +9,17 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
+# Explicit list of words and paths to ignore to prevent navigation leakage
+NAVIGATION_BLACKLIST = {
+    "home", "guides", "events", "news", "articles", "videos", "shop", 
+    "add event", "contact", "about", "terms of service", "privacy policy"
+}
+
+URL_BLACKLIST = {
+    "https://www.salsavida.com/", "https://www.salsavida.com/guides/",
+    "/", "/guides/", "/events/", "/news/", "/articles/", "/videos/", "/shop/"
+}
+
 def scrape_and_create_feed():
     print("Fetching page...")
     response = requests.get(URL, headers=headers)
@@ -30,8 +41,7 @@ def scrape_and_create_feed():
     seen_titles = set()
     events_count = 0
     
-    # Strategy: Find every element that contains the "Share Event" text.
-    # This represents exactly one unique event card.
+    # Find every element that contains the "Share Event" text.
     share_buttons = soup.find_all(lambda tag: tag.name in ['a', 'div', 'button'] and tag.text and "Share Event" in tag.text)
     
     for btn in share_buttons:
@@ -44,29 +54,35 @@ def scrape_and_create_feed():
             text = card.text.strip()
             
             # Find the title link inside this card
-            # Usually the largest text link or a heading link inside the card
             links = card.find_all('a')
             event_link = None
             title = None
             
             for l in links:
                 l_text = l.text.strip()
-                # Skip the "Share Event" link itself
+                l_href = l.get('href', '')
+                
+                # Skip the "Share Event" link itself or empty links
                 if "Share Event" in l_text or not l_text:
                     continue
-                # The first valid link text we find is almost always the event name
+                    
+                # Skip static navigation links or main utility pages
+                if l_text.lower() in NAVIGATION_BLACKLIST or l_href in URL_BLACKLIST:
+                    continue
+                    
+                # The first valid link text that passes the filter is our event name
                 title = l_text
-                event_link = l['href']
+                event_link = l_href
                 break
                 
             # Fallback if no specific title link was isolated
             if not title:
                 heading = card.find(['h2', 'h3', 'h4', 'p'])
-                if heading:
+                if heading and heading.text.strip().lower() not in NAVIGATION_BLACKLIST:
                     title = heading.text.strip()
             
-            # Clean up title fragments or navigation leakage
-            if not title or len(title) < 3 or title in seen_titles:
+            # Final validation check on the title
+            if not title or len(title) < 3 or title.lower() in NAVIGATION_BLACKLIST or title in seen_titles:
                 continue
                 
             # Clean up the link URL
@@ -103,9 +119,9 @@ def scrape_and_create_feed():
     # Save the finished RSS feed
     if events_count > 0:
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {events_count} unique events!")
+        print(f"Successfully generated salsa_feed.xml with {events_count} clean events!")
     else:
-        print("Warning: No events found using the 'Share Event' structural anchor.")
+        print("Warning: No events found matching the criteria.")
 
 if __name__ == "__main__":
     scrape_and_create_feed()
