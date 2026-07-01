@@ -12,7 +12,6 @@ headers = {
 
 BADGE_TEXTS = {"social", "class & social", "classes", "share event", "party"}
 
-# NEW: A function to violently scrub text of all formatting for perfect matching
 def normalize(text):
     if not text: return ""
     return re.sub(r'[^a-z0-9]', '', str(text).lower())
@@ -52,10 +51,37 @@ def scrape_and_create_feed():
             if not (has_time and has_year and has_ny) or len(text) > 800:
                 continue
             
-            # Find the true link
+            # 1. FIND THE TITLE FIRST
             heading = card.find(['h2', 'h3', 'h4', 'h5', 'strong'])
-            event_link = None
+            title = heading.text.strip() if heading else None
             
+            if not title:
+                for l in card.find_all('a'):
+                    l_text = l.text.strip()
+                    if l_text and l_text.lower() not in BADGE_TEXTS:
+                        title = l_text
+                        break
+                        
+            if not title or len(title) < 3 or title.lower() in BADGE_TEXTS:
+                continue
+                
+            # 2. EXTRACT THE DATE
+            date_match = re.search(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s[A-Z][a-z]{2}\s\d{1,2},\s202\d', text)
+            event_date = date_match.group(0) if date_match else "UnknownDate"
+            
+            # 3. THE TRUE NUKE DEDUPLICATOR
+            # We strip all spaces/punctuation from the Title and Date. 
+            # Because BeautifulSoup reads outside-in, the perfect outer box gets saved.
+            # When it hits the inner box, this key matches exactly, and it skips it!
+            unique_event_key = f"{normalize(title)}-{normalize(event_date)}"
+            
+            if unique_event_key in seen_unique_keys:
+                continue
+                
+            seen_unique_keys.add(unique_event_key)
+            
+            # 4. Extract the Link
+            event_link = None
             if heading and heading.find('a'):
                 event_link = heading.find('a').get('href', '')
             else:
@@ -70,38 +96,13 @@ def scrape_and_create_feed():
             if link.startswith('/'):
                 link = "https://www.salsavida.com" + link
                 
-            # Extract Date
-            date_match = re.search(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s[A-Z][a-z]{2}\s\d{1,2},\s202\d', text)
-            event_date = date_match.group(0) if date_match else "UnknownDate"
-            
-            # THE NUKE: Create a key out of the scrubbed URL and the scrubbed Date. 
-            # It ignores the title completely, making clones physically impossible.
-            unique_event_key = f"{normalize(link)}-{normalize(event_date)}"
-            
-            if unique_event_key in seen_unique_keys:
-                continue
-                
-            seen_unique_keys.add(unique_event_key)
-            
-            # Find the true title (now that we know it's not a clone)
-            title = heading.text.strip() if heading else None
-            if not title:
-                for l in card.find_all('a'):
-                    l_text = l.text.strip()
-                    if l_text and l_text.lower() not in BADGE_TEXTS:
-                        title = l_text
-                        break
-                        
-            if not title or len(title) < 3 or title.lower() in BADGE_TEXTS:
-                continue
-                
             desc = " ".join(text.split())
             img_element = card.find('img')
             img_url = img_element['src'] if img_element and img_element.has_attr('src') else None
             
-            # Build the RSS Item
+            # Build the RSS Item using our bulletproof key as the RSS ID
             fe = fg.add_entry()
-            fe.id(link + "-" + normalize(event_date))
+            fe.id(unique_event_key) 
             fe.title(f"{title} ({event_date})")
             fe.link(href=link)
             fe.description(desc)
