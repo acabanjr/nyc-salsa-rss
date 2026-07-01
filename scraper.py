@@ -1,40 +1,4 @@
-import os
-import requests
-import re # NEW: We are bringing in Regular Expressions!
-from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
-
-# Target URL
-URL = "https://www.salsavida.com/guides/new-york/new-york-city/socials/"
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-}
-
-def scrape_and_create_feed():
-    print("Fetching page...")
-    response = requests.get(URL, headers=headers)
-    if response.status_code != 200:
-        print(f"Failed to fetch page: {response.status_code}")
-        return
-        
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    # Initialize the RSS Feed
-    fg = FeedGenerator()
-    fg.id(URL)
-    fg.title("NYC Salsa Socials - Salsa Vida")
-    fg.author({'name': 'Salsa RSS Bot'})
-    fg.link(href=URL, rel='alternate')
-    fg.description("Automated RSS feed for upcoming Salsa Socials in New York City.")
-    fg.language('en')
-    
-    seen_titles = set()
-    events_count = 0
-    
-    # Find every element that contains the "Share Event" text.
-    share_buttons = soup.find_all(lambda tag: tag.name in ['a', 'div', 'button', 'span'] and tag.text and "Share Event" in tag.text)
-    
-    for btn in share_buttons:
+for btn in share_buttons:
         try:
             # Move up to the closest container box
             card = btn.find_parent(['div', 'article', 'li'])
@@ -43,9 +7,13 @@ def scrape_and_create_feed():
                 
             text = card.text.strip()
             
-            # THE ULTIMATE FILTER: The text MUST contain a time pattern (e.g., 6:00 PM, 10:30AM, 9:00 pm)
-            # If there is no time listed, it is a random website link and we skip it instantly.
-            if not re.search(r'\d{1,2}:\d{2}\s?[AaPp][Mm]', text):
+            # THE TITANIUM FILTER: Must have a Time AND a Year AND say New York
+            # This instantly destroys global sidebar ads for festivals in other states
+            has_time = re.search(r'\d{1,2}:\d{2}\s?[AaPp][Mm]', text)
+            has_year = re.search(r'202\d', text)
+            has_ny = "New York" in text
+            
+            if not (has_time and has_year and has_ny):
                 continue
             
             # Find the title link inside this card
@@ -105,13 +73,3 @@ def scrape_and_create_feed():
         except Exception as e:
             print(f"Skipped an item due to parsing error: {e}")
             continue
-
-    # Save the finished RSS feed
-    if events_count > 0:
-        fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {events_count} real events!")
-    else:
-        print("Warning: No events found matching the strict time criteria.")
-
-if __name__ == "__main__":
-    scrape_and_create_feed()
