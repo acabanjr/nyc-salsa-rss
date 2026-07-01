@@ -9,15 +9,28 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
-# Explicit list of words and paths to ignore to prevent navigation leakage
+# Expanded list of structural words and phrases to ignore
 NAVIGATION_BLACKLIST = {
     "home", "guides", "events", "news", "articles", "videos", "shop", 
-    "add event", "contact", "about", "terms of service", "privacy policy"
+    "add event", "contact", "about", "terms of service", "privacy policy",
+    "north america", "salsa dance terms", "dance terms"
 }
 
+# Expanded list of exact URLs and partial paths to filter out
 URL_BLACKLIST = {
-    "https://www.salsavida.com/", "https://www.salsavida.com/guides/",
-    "/", "/guides/", "/events/", "/news/", "/articles/", "/videos/", "/shop/"
+    "https://www.salsavida.com/", 
+    "https://www.salsavida.com/guides/",
+    "https://www.salsavida.com/guides/north-america/", 
+    "https://www.salsavida.com/salsa-dance-terms/",
+    "/", 
+    "/guides/", 
+    "/events/", 
+    "/news/", 
+    "/articles/", 
+    "/videos/", 
+    "/shop/",
+    "/guides/north-america/", 
+    "/salsa-dance-terms/"
 }
 
 def scrape_and_create_feed():
@@ -91,6 +104,10 @@ def scrape_and_create_feed():
                 link = "https://www.salsavida.com" + link
             elif not link.startswith('http'):
                 link = URL
+                
+            # Double check full finalized link against the blacklist
+            if link in URL_BLACKLIST:
+                continue
                 
             # Clean up description text
             desc = " ".join(text.split())
