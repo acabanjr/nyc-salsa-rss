@@ -1,5 +1,6 @@
 import os
 import requests
+import re # NEW: We are bringing in Regular Expressions!
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
@@ -7,30 +8,6 @@ from feedgen.feed import FeedGenerator
 URL = "https://www.salsavida.com/guides/new-york/new-york-city/socials/"
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-}
-
-# Expanded list of structural words and phrases to ignore
-NAVIGATION_BLACKLIST = {
-    "home", "guides", "events", "news", "articles", "videos", "shop", 
-    "add event", "contact", "about", "terms of service", "privacy policy",
-    "north america", "salsa dance terms", "dance terms"
-}
-
-# Expanded list of exact URLs and partial paths to filter out
-URL_BLACKLIST = {
-    "https://www.salsavida.com/", 
-    "https://www.salsavida.com/guides/",
-    "https://www.salsavida.com/guides/north-america/", 
-    "https://www.salsavida.com/salsa-dance-terms/",
-    "/", 
-    "/guides/", 
-    "/events/", 
-    "/news/", 
-    "/articles/", 
-    "/videos/", 
-    "/shop/",
-    "/guides/north-america/", 
-    "/salsa-dance-terms/"
 }
 
 def scrape_and_create_feed():
@@ -55,16 +32,21 @@ def scrape_and_create_feed():
     events_count = 0
     
     # Find every element that contains the "Share Event" text.
-    share_buttons = soup.find_all(lambda tag: tag.name in ['a', 'div', 'button'] and tag.text and "Share Event" in tag.text)
+    share_buttons = soup.find_all(lambda tag: tag.name in ['a', 'div', 'button', 'span'] and tag.text and "Share Event" in tag.text)
     
     for btn in share_buttons:
         try:
-            # Move up to the closest container box that holds this specific event's info
+            # Move up to the closest container box
             card = btn.find_parent(['div', 'article', 'li'])
             if not card:
                 continue
                 
             text = card.text.strip()
+            
+            # THE ULTIMATE FILTER: The text MUST contain a time pattern (e.g., 6:00 PM, 10:30AM, 9:00 pm)
+            # If there is no time listed, it is a random website link and we skip it instantly.
+            if not re.search(r'\d{1,2}:\d{2}\s?[AaPp][Mm]', text):
+                continue
             
             # Find the title link inside this card
             links = card.find_all('a')
@@ -79,11 +61,6 @@ def scrape_and_create_feed():
                 if "Share Event" in l_text or not l_text:
                     continue
                     
-                # Skip static navigation links or main utility pages
-                if l_text.lower() in NAVIGATION_BLACKLIST or l_href in URL_BLACKLIST:
-                    continue
-                    
-                # The first valid link text that passes the filter is our event name
                 title = l_text
                 event_link = l_href
                 break
@@ -91,11 +68,11 @@ def scrape_and_create_feed():
             # Fallback if no specific title link was isolated
             if not title:
                 heading = card.find(['h2', 'h3', 'h4', 'p'])
-                if heading and heading.text.strip().lower() not in NAVIGATION_BLACKLIST:
+                if heading:
                     title = heading.text.strip()
             
-            # Final validation check on the title
-            if not title or len(title) < 3 or title.lower() in NAVIGATION_BLACKLIST or title in seen_titles:
+            # Final validation check
+            if not title or len(title) < 3 or title in seen_titles:
                 continue
                 
             # Clean up the link URL
@@ -104,10 +81,6 @@ def scrape_and_create_feed():
                 link = "https://www.salsavida.com" + link
             elif not link.startswith('http'):
                 link = URL
-                
-            # Double check full finalized link against the blacklist
-            if link in URL_BLACKLIST:
-                continue
                 
             # Clean up description text
             desc = " ".join(text.split())
@@ -136,9 +109,9 @@ def scrape_and_create_feed():
     # Save the finished RSS feed
     if events_count > 0:
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {events_count} clean events!")
+        print(f"Successfully generated salsa_feed.xml with {events_count} real events!")
     else:
-        print("Warning: No events found matching the criteria.")
+        print("Warning: No events found matching the strict time criteria.")
 
 if __name__ == "__main__":
     scrape_and_create_feed()
