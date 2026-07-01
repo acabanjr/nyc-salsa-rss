@@ -28,35 +28,55 @@ def scrape_and_create_feed():
     fg.language('en')
     
     seen_titles = set()
+    events_count = 0
     
-    # Target divs and articles that act as containers
-    potential_cards = soup.find_all(['div', 'article', 'li'])
+    # Strategy: Find every element that contains the "Share Event" text.
+    # This represents exactly one unique event card.
+    share_buttons = soup.find_all(lambda tag: tag.name in ['a', 'div', 'button'] and tag.text and "Share Event" in tag.text)
     
-    for card in potential_cards:
+    for btn in share_buttons:
         try:
+            # Move up to the closest container box that holds this specific event's info
+            card = btn.find_parent(['div', 'article', 'li'])
+            if not card:
+                continue
+                
             text = card.text.strip()
             
-            # FILTER: A real event card must have a heading, a link, and mention a time (AM/PM)
-            title_element = card.find(['h2', 'h3', 'h4'])
-            link_element = card.find('a')
+            # Find the title link inside this card
+            # Usually the largest text link or a heading link inside the card
+            links = card.find_all('a')
+            event_link = None
+            title = None
             
-            # If it's missing a title, a link, or doesn't look like an event (no AM/PM), skip it!
-            # We also ensure the block of text isn't the entire webpage (len < 600)
-            if not title_element or not link_element or (" PM" not in text and " AM" not in text) or len(text) > 600:
+            for l in links:
+                l_text = l.text.strip()
+                # Skip the "Share Event" link itself
+                if "Share Event" in l_text or not l_text:
+                    continue
+                # The first valid link text we find is almost always the event name
+                title = l_text
+                event_link = l['href']
+                break
+                
+            # Fallback if no specific title link was isolated
+            if not title:
+                heading = card.find(['h2', 'h3', 'h4', 'p'])
+                if heading:
+                    title = heading.text.strip()
+            
+            # Clean up title fragments or navigation leakage
+            if not title or len(title) < 3 or title in seen_titles:
                 continue
-
-            title = title_element.text.strip()
-            
-            # Skip if we already grabbed this exact event to prevent duplicates
-            if title in seen_titles:
-                continue
-            
-            # Extract Link
-            link = link_element['href']
+                
+            # Clean up the link URL
+            link = event_link if event_link else URL
             if link.startswith('/'):
                 link = "https://www.salsavida.com" + link
+            elif not link.startswith('http'):
+                link = URL
                 
-            # Clean up the description text (remove extra line breaks)
+            # Clean up description text
             desc = " ".join(text.split())
             
             # Extract Image if available
@@ -74,16 +94,18 @@ def scrape_and_create_feed():
                 fe.enclosure(img_url, 0, 'image/jpeg')
                 
             seen_titles.add(title)
+            events_count += 1
                 
         except Exception as e:
+            print(f"Skipped an item due to parsing error: {e}")
             continue
 
     # Save the finished RSS feed
-    if len(seen_titles) > 0:
+    if events_count > 0:
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {len(seen_titles)} actual events!")
+        print(f"Successfully generated salsa_feed.xml with {events_count} unique events!")
     else:
-        print("Warning: No events passed the filter. Check if the page layout changed.")
+        print("Warning: No events found using the 'Share Event' structural anchor.")
 
 if __name__ == "__main__":
     scrape_and_create_feed()
