@@ -6,7 +6,7 @@ from feedgen.feed import FeedGenerator
 # Target URL
 URL = "https://www.salsavida.com/guides/new-york/new-york-city/socials/"
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
 def scrape_and_create_feed():
@@ -18,7 +18,7 @@ def scrape_and_create_feed():
         
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # Initialize the RSS Feed Generator
+    # Initialize the RSS Feed
     fg = FeedGenerator()
     fg.id(URL)
     fg.title("NYC Salsa Socials - Salsa Vida")
@@ -27,56 +27,48 @@ def scrape_and_create_feed():
     fg.description("Automated RSS feed for upcoming Salsa Socials in New York City.")
     fg.language('en')
     
-    # Target all link/anchor elements or container divs that might represent an event
-    # We search broadly and filter out non-event blocks inside the loop
-    events = soup.find_all(['div', 'article', 'a'])
     seen_titles = set()
     
-    for event in events:
+    # Target divs and articles that act as containers
+    potential_cards = soup.find_all(['div', 'article', 'li'])
+    
+    for card in potential_cards:
         try:
-            # 1. Try to find a title element safely
-            title_element = event.find(['h3', 'h4', 'h2', 'p'])
-            if not title_element:
+            text = card.text.strip()
+            
+            # FILTER: A real event card must have a heading, a link, and mention a time (AM/PM)
+            title_element = card.find(['h2', 'h3', 'h4'])
+            link_element = card.find('a')
+            
+            # If it's missing a title, a link, or doesn't look like an event (no AM/PM), skip it!
+            # We also ensure the block of text isn't the entire webpage (len < 600)
+            if not title_element or not link_element or (" PM" not in text and " AM" not in text) or len(text) > 600:
                 continue
-                
+
             title = title_element.text.strip()
             
-            # Skip empty titles, short fragments, or common navigation items
-            if not title or len(title) < 4 or title in ["Home", "Events", "News", "Articles", "Videos", "Shop", "Share Event"]:
-                continue
-                
-            # Prevent duplicate entries in the same feed run
+            # Skip if we already grabbed this exact event to prevent duplicates
             if title in seen_titles:
                 continue
             
-            # 2. Extract Link safely
-            link = URL
-            link_element = event.find('a') if not event.name == 'a' else event
-            if link_element and link_element.has_attr('href'):
-                link = link_element['href']
-                
+            # Extract Link
+            link = link_element['href']
             if link.startswith('/'):
                 link = "https://www.salsavida.com" + link
-            elif not link.startswith('http'):
-                continue # Skip if it isn't a valid link
                 
-            # 3. Extract Description text safely
-            desc = event.text.strip().replace('\n', ' ')
-            # Clean up double spaces
-            desc = " ".join(desc.split())
+            # Clean up the description text (remove extra line breaks)
+            desc = " ".join(text.split())
             
-            # 4. Extract Image safely if available
-            img_element = event.find('img')
-            img_url = None
-            if img_element and img_element.has_attr('src'):
-                img_url = img_element['src']
+            # Extract Image if available
+            img_element = card.find('img')
+            img_url = img_element['src'] if img_element and img_element.has_attr('src') else None
             
-            # 5. Add to RSS feed
+            # Add to RSS feed
             fe = fg.add_entry()
             fe.id(link + "-" + title.replace(" ", ""))
             fe.title(title)
             fe.link(href=link)
-            fe.description(desc if desc else f"Salsa event: {title}")
+            fe.description(desc)
             
             if img_url and img_url.startswith('http'):
                 fe.enclosure(img_url, 0, 'image/jpeg')
@@ -84,16 +76,14 @@ def scrape_and_create_feed():
             seen_titles.add(title)
                 
         except Exception as e:
-            # If any single item fails, log it and keep moving instead of breaking the whole app
-            print(f"Skipping an item due to a minor error: {e}")
             continue
 
-    # Save the finished RSS feed to a file
+    # Save the finished RSS feed
     if len(seen_titles) > 0:
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {len(seen_titles)} events!")
+        print(f"Successfully generated salsa_feed.xml with {len(seen_titles)} actual events!")
     else:
-        print("Warning: No events were found. Check if the page layout changed radically.")
+        print("Warning: No events passed the filter. Check if the page layout changed.")
 
 if __name__ == "__main__":
     scrape_and_create_feed()
