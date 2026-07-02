@@ -3,6 +3,9 @@ import requests
 import re
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+from ics import Calendar, Event
 
 # Target URL
 URL = "https://www.salsavida.com/guides/new-york/new-york-city/socials/"
@@ -11,6 +14,7 @@ headers = {
 }
 
 BADGE_TEXTS = {"social", "class & social", "classes", "share event", "party"}
+NY_TZ = ZoneInfo("America/New_York")
 
 def normalize(text):
     if not text: return ""
@@ -27,6 +31,7 @@ def scrape_and_create_feed():
         
     soup = BeautifulSoup(response.text, 'html.parser')
     
+    # Initialize RSS
     fg = FeedGenerator()
     fg.id(URL)
     fg.title("NYC Salsa Socials - Salsa Vida")
@@ -34,6 +39,9 @@ def scrape_and_create_feed():
     fg.link(href=URL, rel='alternate')
     fg.description("Automated RSS feed for upcoming Salsa Socials in New York City.")
     fg.language('en')
+
+    # Initialize ICS Calendar
+    cal = Calendar()
     
     seen_unique_keys = set()
     events_count = 0
@@ -51,7 +59,7 @@ def scrape_and_create_feed():
             if not (has_time and has_year and has_ny) or len(text) > 800:
                 continue
             
-            # 1. FIND THE TITLE FIRST
+            # 1. FIND THE TITLE
             heading = card.find(['h2', 'h3', 'h4', 'h5', 'strong'])
             title = heading.text.strip() if heading else None
             
@@ -65,14 +73,10 @@ def scrape_and_create_feed():
             if not title or len(title) < 3 or title.lower() in BADGE_TEXTS:
                 continue
                 
-            # 2. EXTRACT THE DATE
+            # 2. EXTRACT THE DATE & DEDUPLICATE
             date_match = re.search(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s[A-Z][a-z]{2}\s\d{1,2},\s202\d', text)
             event_date = date_match.group(0) if date_match else "UnknownDate"
             
-            # 3. THE TRUE NUKE DEDUPLICATOR
-            # We strip all spaces/punctuation from the Title and Date. 
-            # Because BeautifulSoup reads outside-in, the perfect outer box gets saved.
-            # When it hits the inner box, this key matches exactly, and it skips it!
             unique_event_key = f"{normalize(title)}-{normalize(event_date)}"
             
             if unique_event_key in seen_unique_keys:
@@ -80,7 +84,7 @@ def scrape_and_create_feed():
                 
             seen_unique_keys.add(unique_event_key)
             
-            # 4. Extract the Link
+            # 3. EXTRACT THE LINK & DESCRIPTION
             event_link = None
             if heading and heading.find('a'):
                 event_link = heading.find('a').get('href', '')
@@ -100,15 +104,49 @@ def scrape_and_create_feed():
             img_element = card.find('img')
             img_url = img_element['src'] if img_element and img_element.has_attr('src') else None
             
-            # Build the RSS Item using our bulletproof key as the RSS ID
+            # --- CREATE RSS ITEM ---
             fe = fg.add_entry()
             fe.id(unique_event_key) 
             fe.title(f"{title} ({event_date})")
             fe.link(href=link)
             fe.description(desc)
-            
             if img_url and img_url.startswith('http'):
                 fe.enclosure(img_url, 0, 'image/jpeg')
+
+            # --- CREATE ICS CALENDAR ITEM ---
+            exact_date_match = re.search(r'([A-Z][a-z]{2}\s\d{1,2},\s202\d)', text)
+            times = re.findall(r'\d{1,2}:\d{2}\s?[AaPp][Mm]', text)
+            
+            if exact_date_match and times:
+                # Format string to look like "Jul 14 2026"
+                clean_date = exact_date_match.group(1).replace(",", "").strip() 
+                # Format time to look like "4:00PM"
+                start_time_str = times[0].upper().replace(" ", "") 
+                
+                try:
+                    start_dt = datetime.strptime(f"{clean_date} {start_time_str}", "%b %d %Y %I:%M%p").replace(tzinfo=NY_TZ)
+                    end_dt = None
+                    
+                    if len(times) > 1:
+                        end_time_str = times[1].upper().replace(" ", "")
+                        end_dt = datetime.strptime(f"{clean_date} {end_time_str}", "%b %d %Y %I:%M%p").replace(tzinfo=NY_TZ)
+                        # If end time is earlier than start time, it crossed midnight into the next day
+                        if end_dt < start_dt:
+                            end_dt += timedelta(days=1)
+                    else:
+                        # Default to 3 hours if no end time is specified
+                        end_dt = start_dt + timedelta(hours=3)
+                        
+                    cal_event = Event()
+                    cal_event.name = title
+                    cal_event.begin = start_dt
+                    cal_event.end = end_dt
+                    cal_event.description = f"{desc}\n\nLink: {link}"
+                    cal_event.url = link
+                    cal.events.add(cal_event)
+                except Exception as e:
+                    print(f"Skipping calendar addition due to time parsing error for {title}: {e}")
+                    pass
                 
             events_count += 1
                 
@@ -116,8 +154,12 @@ def scrape_and_create_feed():
             continue
 
     if events_count > 0:
+        # Save XML file
         fg.rss_file('salsa_feed.xml', pretty=True)
-        print(f"Successfully generated salsa_feed.xml with {events_count} purely unique events!")
+        # Save ICS file
+        with open('salsa_calendar.ics', 'w', encoding='utf-8') as f:
+            f.writelines(cal.serialize_iter())
+        print(f"Successfully generated salsa_feed.xml AND salsa_calendar.ics with {events_count} events!")
     else:
         print("Warning: No events found matching the criteria.")
 
