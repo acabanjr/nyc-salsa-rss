@@ -7,7 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Jul 2026 10:03:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 11:56:07 +0000</lastBuildDate>
+    <item>
+      <title>Jimmy Anton Salsa Social (Sunday, Jul 19, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
+      <description>Social Jimmy Anton Salsa Social New York City Sunday, Jul 19, 2026 6:00 PM - 10:00 PM Share Event</description>
+      <guid isPermaLink="false">jimmyantonsalsasocial-sundayjul192026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Jul 19, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
+      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday, Jul 19, 2026 9:00 PM - 4:00 AM Share Event</description>
+      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayjul192026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Bachata Sundays at The Rose (Sunday, Jul 19, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
+      <description>Social Salsa Bachata Sundays at The Rose New York City Sunday, Jul 19, 2026 6:30 PM - 10:30 PM Share Event</description>
+      <guid isPermaLink="false">salsabachatasundaysattherose-sundayjul192026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Social by New York SBKZ Congress (Sunday, Jul 19, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/the-social-by-new-york-sbkz-congress/</link>
+      <description>Class &amp; Social The Social by New York SBKZ Congress New York City Sunday, Jul 19, 2026 8:00 PM - 1:00 AM Share Event</description>
+      <guid isPermaLink="false">thesocialbynewyorksbkzcongress-sundayjul192026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/the-social-by-new-york-sbkz-congress-25287-01.webp" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Saturday, Jul 18, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
@@ -196,27 +224,6 @@
       <description>Class &amp; Social Latin Mondays at 5th &amp; Mad New York City Monday, Jul 6, 2026 5:00 PM - 1:00 AM Share Event</description>
       <guid isPermaLink="false">latinmondaysat5thmad-mondayjul62026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Jul 5, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
-      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday, Jul 5, 2026 9:00 PM - 4:00 AM Share Event</description>
-      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayjul52026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Bachata Sundays at The Rose (Sunday, Jul 5, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
-      <description>Social Salsa Bachata Sundays at The Rose New York City Sunday, Jul 5, 2026 6:30 PM - 10:30 PM Share Event</description>
-      <guid isPermaLink="false">salsabachatasundaysattherose-sundayjul52026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Jimmy Anton Salsa Social (Sunday, Jul 5, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
-      <description>Social Jimmy Anton Salsa Social New York City Sunday, Jul 5, 2026 6:00 PM - 10:00 PM Share Event</description>
-      <guid isPermaLink="false">jimmyantonsalsasocial-sundayjul52026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01.webp" length="0" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
