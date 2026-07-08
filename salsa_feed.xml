@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 10:46:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 10:07:59 +0000</lastBuildDate>
+    <item>
+      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Jul 21, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
+      <description>Social Salsa Tuesdays at Mamajuana Cafe New York City Tuesday, Jul 21, 2026 4:00 PM - 6:00 PM Share Event</description>
+      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdayjul212026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Latin Mondays at 5th &amp; Mad (Monday, Jul 20, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/</link>
@@ -216,13 +223,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bajo-techo-at-negril-village/</link>
       <description>Class &amp; Social Salsa Bajo Techo at Negril Village New York City Wednesday, Jul 8, 2026 6:00 PM - 10:00 PM Share Event</description>
       <guid isPermaLink="false">salsabajotechoatnegrilvillage-wednesdayjul82026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Jul 7, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
-      <description>Social Salsa Tuesdays at Mamajuana Cafe New York City Tuesday, Jul 7, 2026 4:00 PM - 6:00 PM Share Event</description>
-      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdayjul72026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
