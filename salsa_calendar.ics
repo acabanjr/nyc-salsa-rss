@@ -2,155 +2,75 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Class & Social The Social by New York SBKZ Congress New York City Sunday\, Jul 19\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/the-social-by-new-york-sbkz-congress/
-DTEND:20260720T050000Z
-DTSTART:20260720T000000Z
-SUMMARY:The Social by New York SBKZ Congress
-UID:d65bd83c-54c2-4727-95fe-74ddef8a786a@d65b.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/the-social-by-new-york-sbkz-congress/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Salsa Bachata Sundays at The Rose New York City Sunday\, Jul 12\, 2026 6:30 PM - 10:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
-DTEND:20260713T023000Z
-DTSTART:20260712T223000Z
-SUMMARY:Salsa Bachata Sundays at The Rose
-UID:85dc9d6e-464d-473e-93e2-5100c6b058c5@85dc.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Sunset Salsa at Pier 76 New York City Thursday\, Jul 16\, 2026 6:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
-DTEND:20260717T013000Z
-DTSTART:20260716T223000Z
-SUMMARY:Sunset Salsa at Pier 76
-UID:6683bd73-48dc-4cd0-9d10-9f227db3efbf@6683.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Latin Mondays at 5th & Mad New York City Monday\, Jul 13\, 2026 5:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/
-DTEND:20260714T050000Z
-DTSTART:20260713T210000Z
-SUMMARY:Latin Mondays at 5th & Mad
-UID:b98da8ef-1051-4c6a-bb0e-ebd142487e35@b98d.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Reggaeton Party NYC at La Casita New York City Friday\, Jul 17\, 2026 7:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
-DTEND:20260718T080000Z
-DTSTART:20260717T230000Z
-SUMMARY:Reggaeton Party NYC at La Casita
-UID:b15408c2-39c3-40ba-b81f-ddff629e98f8@b154.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Salsa Craze After Work New York City Thursday\, Jul 16\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
-DTEND:20260717T050000Z
-DTSTART:20260717T000000Z
-SUMMARY:Salsa Craze After Work
-UID:db0834d4-3dee-4192-bae6-4b1d5d088543@db08.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Saturday\, Jul 18\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-DTEND:20260719T080000Z
-DTSTART:20260719T010000Z
-SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:4c3f1774-9cb5-4649-bec0-c5503e5293dc@4c3f.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DESCRIPTION:Class & Social Baila Wednesdays at Solas New York City Wednesday\, Jul 22\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
+DTEND:20260723T050000Z
+DTSTART:20260723T000000Z
+SUMMARY:Baila Wednesdays at Solas
+UID:ad4969f1-e858-41aa-8a79-1ce0ddd6716a@ad49.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday\, Jul 19\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 DTEND:20260720T080000Z
 DTSTART:20260720T010000Z
 SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:5d9a4eff-c4be-428c-bc84-d05f55bb4686@5d9a.org
+UID:e7f605cc-09d8-4f03-832e-84ac00487dee@e7f6.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Baila Wednesdays at Solas New York City Wednesday\, Jul 22\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
-DTEND:20260723T050000Z
-DTSTART:20260723T000000Z
-SUMMARY:Baila Wednesdays at Solas
-UID:73959658-addd-4b2c-9c00-d4d264aa0711@7395.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Baila Wednesdays at Solas New York City Wednesday\, Jul 15\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
-DTEND:20260716T050000Z
-DTSTART:20260716T000000Z
-SUMMARY:Baila Wednesdays at Solas
-UID:a9b90296-027b-4b37-abb4-7ccbddb4759f@a9b9.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Friday\, Jul 10\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 DTEND:20260711T080000Z
 DTSTART:20260711T010000Z
 SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:1daa85ff-f71d-447d-b5e8-7118aee7bb18@1daa.org
+UID:54b400dc-42a9-48c9-93d9-f5daa57b9c90@54b4.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Social Jimmy Anton Salsa Social New York City Sunday\, Jul 19\, 2026 6:00 PM - 10:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/
-DTEND:20260720T020000Z
-DTSTART:20260719T220000Z
-SUMMARY:Jimmy Anton Salsa Social
-UID:2a455a5f-d5d1-4416-a62a-2caaee5f50c7@2a45.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Reggaeton Party NYC at La Casita New York City Friday\, Jul 10\, 2026 7:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
-DTEND:20260711T080000Z
-DTSTART:20260710T230000Z
-SUMMARY:Reggaeton Party NYC at La Casita
-UID:9b631b43-e913-4ad2-8867-07441fea0dde@9b63.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Latin Night at Willie’s Steak House New York City Friday\, Jul 10\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/
-DTEND:20260711T050000Z
-DTSTART:20260711T000000Z
-SUMMARY:Latin Night at Willie’s Steak House
-UID:11cd056d-ee68-4039-b17b-f52bc25d18be@11cd.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Washington Square Park Salsa Social New York City Wednesday\, Jul 15\, 2026 6:00 PM - 9:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
-DTEND:20260716T010000Z
-DTSTART:20260715T220000Z
-SUMMARY:Washington Square Park Salsa Social
-UID:c1181821-21eb-4714-bb31-8ded3cf8833d@c118.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Thursday\, Jul 9\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-DTEND:20260710T080000Z
-DTSTART:20260710T010000Z
-SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:aa4b8741-7a72-4214-804c-5a286477cf8d@aa4b.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Social Salsa Craze After Work New York City Thursday\, Jul 9\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
-DTEND:20260710T050000Z
-DTSTART:20260710T000000Z
-SUMMARY:Salsa Craze After Work
-UID:3df0c35f-6d60-4352-b8e0-188b6fa2edab@3df0.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
+DESCRIPTION:Class & Social Sunset Salsa at Pier 76 New York City Thursday\, Jul 23\, 2026 6:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
+DTEND:20260724T013000Z
+DTSTART:20260723T223000Z
+SUMMARY:Sunset Salsa at Pier 76
+UID:1dc2ad99-9616-4321-b4e5-617759550d8b@1dc2.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Social Salsa Tuesdays at Mamajuana Cafe New York City Tuesday\, Jul 21\, 2026 4:00 PM - 6:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/
 DTEND:20260721T220000Z
 DTSTART:20260721T200000Z
 SUMMARY:Salsa Tuesdays at Mamajuana Cafe
-UID:8b16628b-4620-42be-a931-371eca24f447@8b16.org
+UID:e279def7-4447-4725-abb1-2e8fe42c740a@e279.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Washington Square Park Salsa Social New York City Wednesday\, Jul 15\, 2026 6:00 PM - 9:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
+DTEND:20260716T010000Z
+DTSTART:20260715T220000Z
+SUMMARY:Washington Square Park Salsa Social
+UID:aa52b141-8939-4681-a374-488bca838cbd@aa52.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Saturday\, Jul 18\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DTEND:20260719T080000Z
+DTSTART:20260719T010000Z
+SUMMARY:Gonzalez y Gonzalez Live Salsa Party
+UID:2034175e-1591-4970-a618-03f7429ac991@2034.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social Reggaeton Party NYC at La Casita New York City Friday\, Jul 10\, 2026 7:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
+DTEND:20260711T080000Z
+DTSTART:20260710T230000Z
+SUMMARY:Reggaeton Party NYC at La Casita
+UID:af76d061-9281-4a12-b149-ff8ab8260357@af76.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Social Bailamos Juntos Social New York City Friday\, Jul 10\, 2026 9:30 PM - 1:30 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/bailamos-juntos-social/
 DTEND:20260711T053000Z
 DTSTART:20260711T013000Z
 SUMMARY:Bailamos Juntos Social
-UID:28536634-54ee-4eeb-a86e-a9c4f007ea46@2853.org
+UID:0825d2dd-2c18-421f-a228-68d1b0449445@0825.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/bailamos-juntos-social/
 END:VEVENT
 BEGIN:VEVENT
@@ -158,15 +78,23 @@ DESCRIPTION:Class & Social Latin Mondays at 5th & Mad New York City Monday\, Jul
 DTEND:20260721T050000Z
 DTSTART:20260720T210000Z
 SUMMARY:Latin Mondays at 5th & Mad
-UID:51b5441d-a68c-4059-9fa0-b81342c1715c@51b5.org
+UID:82988bb3-790e-4074-8135-6abda2eb9dd6@8298.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Saturday\, Jul 11\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-DTEND:20260712T080000Z
-DTSTART:20260712T010000Z
+DESCRIPTION:Class & Social Washington Square Park Salsa Social New York City Wednesday\, Jul 22\, 2026 6:00 PM - 9:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
+DTEND:20260723T010000Z
+DTSTART:20260722T220000Z
+SUMMARY:Washington Square Park Salsa Social
+UID:2e87a09e-366f-4fd0-9522-6c34de5f0a0c@2e87.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Friday\, Jul 17\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DTEND:20260718T080000Z
+DTSTART:20260718T010000Z
 SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:5784b667-2b48-4df0-840f-3e4adb16de71@5784.org
+UID:df693d26-f510-4769-8009-b00a2e58d906@df69.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 END:VEVENT
 BEGIN:VEVENT
@@ -174,15 +102,23 @@ DESCRIPTION:Social Salsa Tuesdays at Mamajuana Cafe New York City Tuesday\, Jul 
 DTEND:20260714T220000Z
 DTSTART:20260714T200000Z
 SUMMARY:Salsa Tuesdays at Mamajuana Cafe
-UID:70285dfa-6401-4850-9f97-31bc42dda4d7@7028.org
+UID:f38ba59d-1161-445d-8f53-4613d107436f@f38b.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social LVG Salsa Social New York City Sunday\, Jul 12\, 2026 6:00 PM - 10:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/
+DTEND:20260713T020000Z
+DTSTART:20260712T220000Z
+SUMMARY:LVG Salsa Social
+UID:8fc33ccb-83be-4286-a9ea-72c660bb2005@8fc3.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday\, Jul 12\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 DTEND:20260713T080000Z
 DTSTART:20260713T010000Z
 SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:9c7d3b06-7476-4be8-bdc8-3fb8966fc5e6@9c7d.org
+UID:62e5d878-834a-4770-abed-0d4fbfd248a3@62e5.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 END:VEVENT
 BEGIN:VEVENT
@@ -190,63 +126,127 @@ DESCRIPTION:Social Latin Night at Willie’s Steak House New York City Friday\, 
 DTEND:20260718T050000Z
 DTSTART:20260718T000000Z
 SUMMARY:Latin Night at Willie’s Steak House
-UID:5f5e2c07-b3c8-41e4-a114-1ebc807cf278@5f5e.org
+UID:45dbf5e3-efdb-4cae-984e-25c8a10042f1@45db.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Class & Social Sunset Salsa at Pier 76 New York City Thursday\, Jul 9\, 2026 6:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
-DTEND:20260710T013000Z
-DTSTART:20260709T223000Z
-SUMMARY:Sunset Salsa at Pier 76
-UID:4215e534-cb69-4a0c-b1ef-8c744ee3dc51@4215.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
+DESCRIPTION:Social Jimmy Anton Salsa Social New York City Sunday\, Jul 19\, 2026 6:00 PM - 10:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/
+DTEND:20260720T020000Z
+DTSTART:20260719T220000Z
+SUMMARY:Jimmy Anton Salsa Social
+UID:b2324be8-ffa8-47bc-a85d-459978c44218@b232.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Social LVG Salsa Social New York City Sunday\, Jul 12\, 2026 6:00 PM - 10:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/
-DTEND:20260713T020000Z
-DTSTART:20260712T220000Z
-SUMMARY:LVG Salsa Social
-UID:d5bd46a6-f337-41d3-b1bb-1d69e34c36a9@d5bd.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Class & Social Washington Square Park Salsa Social New York City Wednesday\, Jul 22\, 2026 6:00 PM - 9:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
-DTEND:20260723T010000Z
-DTSTART:20260722T220000Z
-SUMMARY:Washington Square Park Salsa Social
-UID:52e55bed-f978-4640-a0cd-ebd1f5fe401c@52e5.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/
+DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Thursday\, Jul 23\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DTEND:20260724T080000Z
+DTSTART:20260724T010000Z
+SUMMARY:Gonzalez y Gonzalez Live Salsa Party
+UID:f0fca159-6b59-4d1d-9285-d4b203937a17@f0fc.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Social Salsa Bachata Sundays at The Rose New York City Sunday\, Jul 19\, 2026 6:30 PM - 10:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
 DTEND:20260720T023000Z
 DTSTART:20260719T223000Z
 SUMMARY:Salsa Bachata Sundays at The Rose
-UID:8539b39d-ca9a-423f-9403-c4cafc83b4ce@8539.org
+UID:79fd1a62-d2ef-46b6-ba36-e30e1dba6d56@79fd.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Thursday\, Jul 16\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-DTEND:20260717T080000Z
-DTSTART:20260717T010000Z
-SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:c6a4ac30-2c3f-4277-8298-31769c84af98@c6a4.org
-URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DESCRIPTION:Social Reggaeton Party NYC at La Casita New York City Friday\, Jul 17\, 2026 7:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
+DTEND:20260718T080000Z
+DTSTART:20260717T230000Z
+SUMMARY:Reggaeton Party NYC at La Casita
+UID:354d3858-0999-4aa4-bb16-37a081e1a4c9@354d.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Class & Social Salsa Bajo Techo at Negril Village New York City Wednesday\, Jul 22\, 2026 6:00 PM - 10:00 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-bajo-techo-at-negril-village/
 DTEND:20260723T020000Z
 DTSTART:20260722T220000Z
 SUMMARY:Salsa Bajo Techo at Negril Village
-UID:58572b0e-6479-4b70-bad6-f7c8e871e604@5857.org
+UID:3e17a27c-0e87-4116-a391-6150a8a59cc8@3e17.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-bajo-techo-at-negril-village/
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Friday\, Jul 17\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
-DTEND:20260718T080000Z
-DTSTART:20260718T010000Z
+DESCRIPTION:Class & Social Latin Mondays at 5th & Mad New York City Monday\, Jul 13\, 2026 5:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/
+DTEND:20260714T050000Z
+DTSTART:20260713T210000Z
+SUMMARY:Latin Mondays at 5th & Mad
+UID:96c8c148-81ea-4397-ba2a-805a48a908cb@96c8.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social Latin Night at Willie’s Steak House New York City Friday\, Jul 10\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/
+DTEND:20260711T050000Z
+DTSTART:20260711T000000Z
+SUMMARY:Latin Night at Willie’s Steak House
+UID:848d04d9-9bee-4e38-bb40-7c4e2da2e08d@848d.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Sunset Salsa at Pier 76 New York City Thursday\, Jul 16\, 2026 6:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
+DTEND:20260717T013000Z
+DTSTART:20260716T223000Z
+SUMMARY:Sunset Salsa at Pier 76
+UID:f0905919-98ff-4237-9dca-dd9153a502aa@f090.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Baila Wednesdays at Solas New York City Wednesday\, Jul 15\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
+DTEND:20260716T050000Z
+DTSTART:20260716T000000Z
+SUMMARY:Baila Wednesdays at Solas
+UID:f658744c-d7e1-4537-8379-47a281e84c33@f658.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Thursday\, Jul 16\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DTEND:20260717T080000Z
+DTSTART:20260717T010000Z
 SUMMARY:Gonzalez y Gonzalez Live Salsa Party
-UID:9df4ffca-0423-4149-b693-bdf03f8a3d0d@9df4.org
+UID:a0ff20f0-1860-4eac-b592-8e4a1c93193f@a0ff.org
 URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social Salsa Bachata Sundays at The Rose New York City Sunday\, Jul 12\, 2026 6:30 PM - 10:30 PM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
+DTEND:20260713T023000Z
+DTSTART:20260712T223000Z
+SUMMARY:Salsa Bachata Sundays at The Rose
+UID:865c7962-4154-4b55-ab61-1cd5edf471ef@865c.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social Gonzalez y Gonzalez Live Salsa Party New York City Saturday\, Jul 11\, 2026 9:00 PM - 4:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+DTEND:20260712T080000Z
+DTSTART:20260712T010000Z
+SUMMARY:Gonzalez y Gonzalez Live Salsa Party
+UID:8b0a215a-aa76-4839-9287-fa15ef5f9b3f@8b0a.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social Salsa Craze After Work New York City Thursday\, Jul 16\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
+DTEND:20260717T050000Z
+DTSTART:20260717T000000Z
+SUMMARY:Salsa Craze After Work
+UID:bff3741a-6777-45c0-9403-2dc238c80638@bff3.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Social Salsa Craze After Work New York City Thursday\, Jul 23\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
+DTEND:20260724T050000Z
+DTSTART:20260724T000000Z
+SUMMARY:Salsa Craze After Work
+UID:437cbca9-9c58-445d-8e67-77ca5a16cd26@437c.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Class & Social The Social by New York SBKZ Congress New York City Sunday\, Jul 19\, 2026 8:00 PM - 1:00 AM Share Event\n\nLink: https://www.salsavida.com/event/new-york/new-york-city/the-social-by-new-york-sbkz-congress/
+DTEND:20260720T050000Z
+DTSTART:20260720T000000Z
+SUMMARY:The Social by New York SBKZ Congress
+UID:5ad5e40f-e35a-4e4c-a7c5-fb177a448944@5ad5.org
+URL:https://www.salsavida.com/event/new-york/new-york-city/the-social-by-new-york-sbkz-congress/
 END:VEVENT
 END:VCALENDAR
