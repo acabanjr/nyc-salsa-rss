@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jul 2026 09:43:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 10:50:32 +0000</lastBuildDate>
+    <item>
+      <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Jul 26, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
+      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday, Jul 26, 2026 9:00 PM - 4:00 AM Share Event</description>
+      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayjul262026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Bachata Sundays at The Rose (Sunday, Jul 26, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
+      <description>Social Salsa Bachata Sundays at The Rose New York City Sunday, Jul 26, 2026 6:30 PM - 10:30 PM Share Event</description>
+      <guid isPermaLink="false">salsabachatasundaysattherose-sundayjul262026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>LVG Salsa Social (Sunday, Jul 26, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/</link>
+      <description>Social LVG Salsa Social New York City Sunday, Jul 26, 2026 6:00 PM - 10:00 PM Share Event</description>
+      <guid isPermaLink="false">lvgsalsasocial-sundayjul262026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Saturday, Jul 25, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
@@ -217,27 +238,6 @@
       <description>Class &amp; Social Latin Mondays at 5th &amp; Mad New York City Monday, Jul 13, 2026 5:00 PM - 1:00 AM Share Event</description>
       <guid isPermaLink="false">latinmondaysat5thmad-mondayjul132026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Jul 12, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
-      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Sunday, Jul 12, 2026 9:00 PM - 4:00 AM Share Event</description>
-      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayjul122026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Bachata Sundays at The Rose (Sunday, Jul 12, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
-      <description>Social Salsa Bachata Sundays at The Rose New York City Sunday, Jul 12, 2026 6:30 PM - 10:30 PM Share Event</description>
-      <guid isPermaLink="false">salsabachatasundaysattherose-sundayjul122026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>LVG Salsa Social (Sunday, Jul 12, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/lvg-salsa-social/</link>
-      <description>Social LVG Salsa Social New York City Sunday, Jul 12, 2026 6:00 PM - 10:00 PM Share Event</description>
-      <guid isPermaLink="false">lvgsalsasocial-sundayjul122026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
