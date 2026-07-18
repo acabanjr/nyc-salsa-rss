@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:47:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 09:16:18 +0000</lastBuildDate>
+    <item>
+      <title>Latin Night at Willie’s Steak House (Friday, Jul 31, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/</link>
+      <description>Social Latin Night at Willie’s Steak House New York City Friday, Jul 31, 2026 8:00 PM - 1:00 AM Share Event</description>
+      <guid isPermaLink="false">latinnightatwilliessteakhouse-fridayjul312026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Gonzalez y Gonzalez Live Salsa Party (Friday, Jul 31, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
+      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Friday, Jul 31, 2026 9:00 PM - 4:00 AM Share Event</description>
+      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-fridayjul312026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Reggaeton Party NYC at La Casita (Friday, Jul 31, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/</link>
+      <description>Social Reggaeton Party NYC at La Casita New York City Friday, Jul 31, 2026 7:00 PM - 4:00 AM Share Event</description>
+      <guid isPermaLink="false">reggaetonpartynycatlacasita-fridayjul312026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Salsa Craze After Work (Thursday, Jul 30, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/</link>
@@ -217,27 +238,6 @@
       <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Saturday, Jul 18, 2026 9:00 PM - 4:00 AM Share Event</description>
       <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-saturdayjul182026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Latin Night at Willie’s Steak House (Friday, Jul 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/</link>
-      <description>Social Latin Night at Willie’s Steak House New York City Friday, Jul 17, 2026 8:00 PM - 1:00 AM Share Event</description>
-      <guid isPermaLink="false">latinnightatwilliessteakhouse-fridayjul172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Gonzalez y Gonzalez Live Salsa Party (Friday, Jul 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
-      <description>Class &amp; Social Gonzalez y Gonzalez Live Salsa Party New York City Friday, Jul 17, 2026 9:00 PM - 4:00 AM Share Event</description>
-      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-fridayjul172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Reggaeton Party NYC at La Casita (Friday, Jul 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/reggaeton-party-nyc-at-la-casita/</link>
-      <description>Social Reggaeton Party NYC at La Casita New York City Friday, Jul 17, 2026 7:00 PM - 4:00 AM Share Event</description>
-      <guid isPermaLink="false">reggaetonpartynycatlacasita-fridayjul172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
