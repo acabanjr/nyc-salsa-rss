@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:16:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 10:15:27 +0000</lastBuildDate>
+    <item>
+      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Aug 4, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
+      <description>Social 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe New York City Tuesday, Aug 4, 2026 Share Event</description>
+      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdayaug42026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Aug 4, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Class &amp; Social 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Aug 4, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdayaug42026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Latin Mondays at 5th &amp; Mad (Monday, Aug 3, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/</link>
@@ -258,20 +272,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
       <description>Class &amp; Social 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Wednesday, Jul 22, 2026 Share Event</description>
       <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-wednesdayjul222026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Jul 21, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
-      <description>Social 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe New York City Tuesday, Jul 21, 2026 Share Event</description>
-      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdayjul212026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Jul 21, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Class &amp; Social 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Jul 21, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdayjul212026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
