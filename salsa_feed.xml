@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 08:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 08:15:47 +0000</lastBuildDate>
     <item>
       <title>Salsa Craze After Work (Thursday, Aug 27, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/</link>
@@ -107,18 +107,18 @@
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
-      <title>Salsa Bachata Sundays at The Rose (Sunday, Aug 23, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
-      <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Aug 23, 2026 Share Event</description>
-      <guid isPermaLink="false">salsabachatasundaysattherose-sundayaug232026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Aug 23, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Sunday, Aug 23, 2026 Share Event</description>
       <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayaug232026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Bachata Sundays at The Rose (Sunday, Aug 23, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
+      <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Aug 23, 2026 Share Event</description>
+      <guid isPermaLink="false">salsabachatasundaysattherose-sundayaug232026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
       <title>LVG Salsa Social (Sunday, Aug 23, 2026)</title>
@@ -268,13 +268,6 @@
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
-      <title>Salsa Bachata Sundays at The Rose (Sunday, Aug 16, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
-      <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Aug 16, 2026 Share Event</description>
-      <guid isPermaLink="false">salsabachatasundaysattherose-sundayaug162026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
       <title>Jimmy Anton Salsa Social (Sunday, Aug 16, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
       <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Aug 16, 2026 Share Event</description>
@@ -287,6 +280,13 @@
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Sunday, Aug 16, 2026 Share Event</description>
       <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-sundayaug162026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Bachata Sundays at The Rose (Sunday, Aug 16, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-bachata-sundays-at-the-rose/</link>
+      <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Aug 16, 2026 Share Event</description>
+      <guid isPermaLink="false">salsabachatasundaysattherose-sundayaug162026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
       <title>The Social by New York SBKZ Congress (Sunday, Aug 16, 2026)</title>
