@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 13:28:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 13:25:14 +0000</lastBuildDate>
     <item>
       <title>Latin Night at Willie’s Steak House (Friday, Sep 11, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/</link>
@@ -356,13 +356,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Sunday, Aug 30, 2026 Share Event</description>
       <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-sundayaug302026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Weekend Bachata Social at Ktown Dance Studio (Saturday, Aug 29, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/weekend-bachata-social-at-ktown-dance-studio/</link>
-      <description>Bachata, Social Social Bachata 9:00 PM - 2:00 AM Weekend Bachata Social at Ktown Dance Studio New York City Saturday, Aug 29, 2026 Share Event</description>
-      <guid isPermaLink="false">weekendbachatasocialatktowndancestudio-saturdayaug292026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
