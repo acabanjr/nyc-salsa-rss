@@ -7,7 +7,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 12:53:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 12:29:52 +0000</lastBuildDate>
+    <item>
+      <title>Salsa Craze After Work (Thursday, Oct 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/</link>
+      <description>Salsa, Social Social Salsa 8:00 PM - 1:00 AM Salsa Craze After Work New York City Thursday, Oct 1, 2026 Share Event</description>
+      <guid isPermaLink="false">salsacrazeafterwork-thursdayoct12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Gonzalez y Gonzalez Live Salsa Party (Thursday, Oct 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Thursday, Oct 1, 2026 Share Event</description>
+      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-thursdayoct12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Sunset Salsa at Pier 45 (Thursday, Oct 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 6:30 PM Sunset Salsa at Pier 45 Free New York City Thursday, Oct 1, 2026 Share Event</description>
+      <guid isPermaLink="false">sunsetsalsaatpier45-thursdayoct12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Thursday, Oct 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Thursday, Oct 1, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-thursdayoct12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Bachata at Solas (Thursday, Oct 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/bachata-at-solas/</link>
+      <description>Bachata, Class &amp; Social Class &amp; Social Bachata 7:30 PM - 1:00 AM Bachata at Solas New York City Thursday, Oct 1, 2026 Share Event</description>
+      <guid isPermaLink="false">bachataatsolas-thursdayoct12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Washington Square Park Salsa Social (Wednesday, Sep 30, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/washington-square-park-salsa-social/</link>
@@ -212,13 +247,6 @@
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
-      <title>Jimmy Anton Salsa Social (Sunday, Sep 20, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
-      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Sep 20, 2026 Share Event</description>
-      <guid isPermaLink="false">jimmyantonsalsasocial-sundaysep202026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Sep 20, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Sunday, Sep 20, 2026 Share Event</description>
@@ -231,6 +259,13 @@
       <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Sep 20, 2026 Share Event</description>
       <guid isPermaLink="false">salsabachatasundaysattherose-sundaysep202026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Jimmy Anton Salsa Social (Sunday, Sep 20, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
+      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Sep 20, 2026 Share Event</description>
+      <guid isPermaLink="false">jimmyantonsalsasocial-sundaysep202026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
       <title>The Social by New York SBKZ Congress (Sunday, Sep 20, 2026)</title>
@@ -265,41 +300,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/friday-sensual-bachata-at-sensual-movement-nyc/</link>
       <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Friday Sensual Bachata at Sensual Movement NYC New York City Friday, Sep 18, 2026 Share Event</description>
       <guid isPermaLink="false">fridaysensualbachataatsensualmovementnyc-fridaysep182026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Craze After Work (Thursday, Sep 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/</link>
-      <description>Salsa, Social Social Salsa 8:00 PM - 1:00 AM Salsa Craze After Work New York City Thursday, Sep 17, 2026 Share Event</description>
-      <guid isPermaLink="false">salsacrazeafterwork-thursdaysep172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Gonzalez y Gonzalez Live Salsa Party (Thursday, Sep 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Thursday, Sep 17, 2026 Share Event</description>
-      <guid isPermaLink="false">gonzalezygonzalezlivesalsaparty-thursdaysep172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/gonzalez-y-gonzalez-live-salsa-party-22540-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Sunset Salsa at Pier 45 (Thursday, Sep 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/sunset-salsa-at-pier-76/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 6:30 PM Sunset Salsa at Pier 45 Free New York City Thursday, Sep 17, 2026 Share Event</description>
-      <guid isPermaLink="false">sunsetsalsaatpier45-thursdaysep172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Thursday, Sep 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Thursday, Sep 17, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-thursdaysep172026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Bachata at Solas (Thursday, Sep 17, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/bachata-at-solas/</link>
-      <description>Bachata, Class &amp; Social Class &amp; Social Bachata 7:30 PM - 1:00 AM Bachata at Solas New York City Thursday, Sep 17, 2026 Share Event</description>
-      <guid isPermaLink="false">bachataatsolas-thursdaysep172026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
