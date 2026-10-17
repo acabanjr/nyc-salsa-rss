@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 12:51:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 11:51:09 +0000</lastBuildDate>
+    <item>
+      <title>Latin Night at Willie’s Steak House (Friday, Oct 30, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/</link>
+      <description>Salsa, Social Social Salsa 8:00 PM - 1:00 AM Latin Night at Willie’s Steak House Free New York City Friday, Oct 30, 2026 Share Event</description>
+      <guid isPermaLink="false">latinnightatwilliessteakhouse-fridayoct302026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Friday, Oct 30, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Friday, Oct 30, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-fridayoct302026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Friday Sensual Bachata at Sensual Movement NYC (Friday, Oct 30, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/friday-sensual-bachata-at-sensual-movement-nyc/</link>
+      <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Friday Sensual Bachata at Sensual Movement NYC New York City Friday, Oct 30, 2026 Share Event</description>
+      <guid isPermaLink="false">fridaysensualbachataatsensualmovementnyc-fridayoct302026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Salsa Craze After Work (Thursday, Oct 29, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-craze-after-work/</link>
@@ -273,27 +294,6 @@
       <description>Salsa, Social Social Salsa 8:00 PM - 12:00 AM Salsa Noche Cubana at Hotel Alameda New York City Saturday, Oct 17, 2026 Share Event</description>
       <guid isPermaLink="false">salsanochecubanaathotelalameda-saturdayoct172026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/sv-ai-event-intake/844070093_18341056411284167_9082879667154277020_n-HmsY0AsOCg-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Latin Night at Willie’s Steak House (Friday, Oct 16, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/latin-night-at-willies-steak-house/</link>
-      <description>Salsa, Social Social Salsa 8:00 PM - 1:00 AM Latin Night at Willie’s Steak House Free New York City Friday, Oct 16, 2026 Share Event</description>
-      <guid isPermaLink="false">latinnightatwilliessteakhouse-fridayoct162026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Friday, Oct 16, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Friday, Oct 16, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-fridayoct162026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Friday Sensual Bachata at Sensual Movement NYC (Friday, Oct 16, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/friday-sensual-bachata-at-sensual-movement-nyc/</link>
-      <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Friday Sensual Bachata at Sensual Movement NYC New York City Friday, Oct 16, 2026 Share Event</description>
-      <guid isPermaLink="false">fridaysensualbachataatsensualmovementnyc-fridayoct162026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
