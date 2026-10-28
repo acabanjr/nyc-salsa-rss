@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 13:46:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 14:41:44 +0000</lastBuildDate>
+    <item>
+      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Nov 10, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
+      <description>Salsa, Social Social Salsa 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe Free New York City Tuesday, Nov 10, 2026 Share Event</description>
+      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdaynov102026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Nov 10, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Nov 10, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdaynov102026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Latin Mondays at 5th &amp; Mad (Monday, Nov 9, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/</link>
@@ -163,6 +177,13 @@
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
+      <title>Jimmy Anton Salsa Social (Sunday, Nov 1, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
+      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Nov 1, 2026 Share Event</description>
+      <guid isPermaLink="false">jimmyantonsalsasocial-sundaynov12026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Nov 1, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Sunday, Nov 1, 2026 Share Event</description>
@@ -175,13 +196,6 @@
       <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Nov 1, 2026 Share Event</description>
       <guid isPermaLink="false">salsabachatasundaysattherose-sundaynov12026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Jimmy Anton Salsa Social (Sunday, Nov 1, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
-      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Nov 1, 2026 Share Event</description>
-      <guid isPermaLink="false">jimmyantonsalsasocial-sundaynov12026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
       <title>Salsa Classes at Nieves Latin Dance Studio (Sunday, Nov 1, 2026)</title>
@@ -286,20 +300,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/roofchata-wednesdays-at-230-fifth/</link>
       <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Roofchata Wednesdays at 230 Fifth New York City Wednesday, Oct 28, 2026 Share Event</description>
       <guid isPermaLink="false">roofchatawednesdaysat230fifth-wednesdayoct282026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Oct 27, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
-      <description>Salsa, Social Social Salsa 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe Free New York City Tuesday, Oct 27, 2026 Share Event</description>
-      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdayoct272026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Oct 27, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Oct 27, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdayoct272026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
