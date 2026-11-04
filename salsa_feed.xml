@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 15:37:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 15:51:32 +0000</lastBuildDate>
+    <item>
+      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Nov 17, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
+      <description>Salsa, Social Social Salsa 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe Free New York City Tuesday, Nov 17, 2026 Share Event</description>
+      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdaynov172026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Nov 17, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Nov 17, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdaynov172026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Latin Mondays at 5th &amp; Mad (Monday, Nov 16, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/latin-mondays-at-5th-mad/</link>
@@ -286,27 +300,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/roofchata-wednesdays-at-230-fifth/</link>
       <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Roofchata Wednesdays at 230 Fifth New York City Wednesday, Nov 4, 2026 Share Event</description>
       <guid isPermaLink="false">roofchatawednesdaysat230fifth-wednesdaynov42026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Nov 3, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
-      <description>Salsa, Social Social Salsa 4:00 PM - 6:00 PM Salsa Tuesdays at Mamajuana Cafe Free New York City Tuesday, Nov 3, 2026 Share Event</description>
-      <guid isPermaLink="false">salsatuesdaysatmamajuanacafe-tuesdaynov32026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Tuesday, Nov 3, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Tuesday, Nov 3, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-tuesdaynov32026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Bachata Dance &amp; Social at Active Studios NYC (Tuesday, Nov 3, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/bachata-dance-social-at-active-studios-nyc/</link>
-      <description>Bachata, Class &amp; Social Class &amp; Social Bachata 7:30 PM Bachata Dance &amp; Social at Active Studios NYC New York City Tuesday, Nov 3, 2026 Share Event</description>
-      <guid isPermaLink="false">bachatadancesocialatactivestudiosnyc-tuesdaynov32026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
