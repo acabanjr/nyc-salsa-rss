@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 16:49:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 16:56:27 +0000</lastBuildDate>
+    <item>
+      <title>Baila Wednesdays at Solas (Wednesday, Dec 2, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 8:00 PM - 1:00 AM Baila Wednesdays at Solas New York City Wednesday, Dec 2, 2026 Share Event</description>
+      <guid isPermaLink="false">bailawednesdaysatsolas-wednesdaydec22026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/baila-wednesdays-at-solas-22544-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Salsa Classes at Nieves Latin Dance Studio (Wednesday, Dec 2, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
+      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Wednesday, Dec 2, 2026 Share Event</description>
+      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-wednesdaydec22026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Roofchata Wednesdays at 230 Fifth (Wednesday, Dec 2, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/roofchata-wednesdays-at-230-fifth/</link>
+      <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Roofchata Wednesdays at 230 Fifth New York City Wednesday, Dec 2, 2026 Share Event</description>
+      <guid isPermaLink="false">roofchatawednesdaysat230fifth-wednesdaydec22026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title>Salsa Tuesdays at Mamajuana Cafe (Tuesday, Dec 1, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-tuesdays-at-mamajuana-cafe/</link>
@@ -30,6 +51,13 @@
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/latin-mondays-at-5th-038-mad-22534-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
+      <title>Jimmy Anton Salsa Social (Sunday, Nov 29, 2026)</title>
+      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
+      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Nov 29, 2026 Share Event</description>
+      <guid isPermaLink="false">jimmyantonsalsasocial-sundaynov292026</guid>
+      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
+    </item>
+    <item>
       <title>Gonzalez y Gonzalez Live Salsa Party (Sunday, Nov 29, 2026)</title>
       <link>https://www.salsavida.com/event/new-york/new-york-city/gonzalez-y-gonzalez-live-salsa-party/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 9:00 PM - 2:00 AM Gonzalez y Gonzalez Live Salsa Party Live Music New York City Sunday, Nov 29, 2026 Share Event</description>
@@ -42,13 +70,6 @@
       <description>Salsa + Bachata, Social Social Salsa + Bachata 6:30 PM - 10:30 PM Salsa Bachata Sundays at The Rose New York City Sunday, Nov 29, 2026 Share Event</description>
       <guid isPermaLink="false">salsabachatasundaysattherose-sundaynov292026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/salsa-bachata-sundays-at-the-rose-22536-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Jimmy Anton Salsa Social (Sunday, Nov 29, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/jimmy-anton-salsa-social/</link>
-      <description>Salsa, Social Social Salsa 6:00 PM - 10:00 PM Jimmy Anton Salsa Social New York City Sunday, Nov 29, 2026 Share Event</description>
-      <guid isPermaLink="false">jimmyantonsalsasocial-sundaynov292026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/jimmy-anton-salsa-social-22543-01-240x240.webp" length="0" type="image/jpeg"/>
     </item>
     <item>
       <title>Salsa Classes at Nieves Latin Dance Studio (Sunday, Nov 29, 2026)</title>
@@ -258,27 +279,6 @@
       <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-thursdays-at-time-out-market/</link>
       <description>Salsa, Class &amp; Social Class &amp; Social Salsa 7:00 PM - 10:00 PM Salsa Thursdays at Time Out Market Free New York City Thursday, Nov 19, 2026 Share Event</description>
       <guid isPermaLink="false">salsathursdaysattimeoutmarket-thursdaynov192026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Baila Wednesdays at Solas (Wednesday, Nov 18, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/baila-wednesdays-at-solas/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 8:00 PM - 1:00 AM Baila Wednesdays at Solas New York City Wednesday, Nov 18, 2026 Share Event</description>
-      <guid isPermaLink="false">bailawednesdaysatsolas-wednesdaynov182026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2026/03/baila-wednesdays-at-solas-22544-01-240x240.webp" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Salsa Classes at Nieves Latin Dance Studio (Wednesday, Nov 18, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/salsa-classes-at-nieves-latin-dance-studio/</link>
-      <description>Salsa, Class &amp; Social Class &amp; Social Salsa 3:00 PM - 10:00 PM Salsa Classes at Nieves Latin Dance Studio New York City Wednesday, Nov 18, 2026 Share Event</description>
-      <guid isPermaLink="false">salsaclassesatnieveslatindancestudio-wednesdaynov182026</guid>
-      <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Roofchata Wednesdays at 230 Fifth (Wednesday, Nov 18, 2026)</title>
-      <link>https://www.salsavida.com/event/new-york/new-york-city/roofchata-wednesdays-at-230-fifth/</link>
-      <description>Salsa + Bachata, Class &amp; Social Class &amp; Social Salsa + Bachata 9:00 PM Roofchata Wednesdays at 230 Fifth New York City Wednesday, Nov 18, 2026 Share Event</description>
-      <guid isPermaLink="false">roofchatawednesdaysat230fifth-wednesdaynov182026</guid>
       <enclosure url="https://www.salsavida.com/wp-content/uploads/2025/04/salsa-social-icon.jpg" length="0" type="image/jpeg"/>
     </item>
   </channel>
